@@ -9,8 +9,7 @@ Run an Aggressive Scan: Run the following command from your attacker machine:
 -T4: Speeds up the execution (more likely to trigger threshold alerts).                                                                                                                      
 -p-: Scans all 65,535 ports.                                                                                                                                                                 
 
-<img width="597" height="175" alt="image" src="https://github.com/user-attachments/assets/8aea98d2-e62b-4b0e-98ea-33b0c089bf0f" />
-
+<img width="597" height="175" alt="image" src="https://github.com/user-attachments/assets/8aea98d2-e62b-4b0e-98ea-33b0c089bf0f" />                                                        
 
 ##Phase 2: The Detection (Security Onion / Elasticsearch)                                                                                                                                    
 Once the scan finishes, Security Onion’s Suricata (the IDS engine) should have flagged the traffic.                                                                                          
@@ -22,6 +21,5 @@ GPL SCAN nmap fingerprint attempt
 ET SCAN Potential SSH Scan                                                                                                                                                                   
 ET SCAN Nmap Scripting Engine User-Agent Detected 
 
-<img width="1365" height="507" alt="image" src="https://github.com/user-attachments/assets/dc815b89-7a19-4b61-8b71-4eb1815f2192" />
-
+<img width="1365" height="507" alt="image" src="https://github.com/user-attachments/assets/dc815b89-7a19-4b61-8b71-4eb1815f2192" />                                                        
 
