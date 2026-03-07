@@ -25,7 +25,7 @@ Investigate incidents using the Security Onion SOC console
 🏗️ Lab Architecture                                                                                                                                                                      
 
 The lab environment consists of the following components:
-Attacker Machine (Kali Linux)
+Attacker Machine (Kali Linux)                                                                                                                                                             
         │
         │ Attack Traffic
         ▼
