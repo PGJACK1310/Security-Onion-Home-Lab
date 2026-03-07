@@ -1,2 +1,46 @@
-# Security-Onion-Home-Lab
-Security Onion is a free and open-source Linux distribution focused on network security monitoring, intrusion detection, and log management. It is a complete solution for the detection, analysis, and response to various cyber threats on the network of an organization. Security Onion incorporates robust security tools such as Suricata for intrusion detection systems, Zeek for network traffic analysis, the Elastic Stack for log management, and Wazuh for host-based intrusion detection systems. It captures network traffic and analyzes it in real-time, enabling security experts to detect suspicious activities on the network and improve the overall security posture of the network. Security Onion is a powerful tool for Security Operation Centers (SOCs), enterprise networks, and cybersecurity training environments. The project focuses on the implementation of Security Onion in a virtual lab environment for simulating attacks and carrying out incident analysis.
+🛡️ Security Onion Network Security Monitoring Lab
+
+📌 Project Overview
+This project demonstrates the deployment and configuration of Security Onion, a powerful open-source platform used for Network Security Monitoring (NSM), Intrusion Detection, and Threat Analysis.
+The lab environment simulates real-world cyber attacks such as port scanning and brute-force attacks, and shows how Security Onion detects and analyzes these threats using tools like Suricata, Zeek, Elastic Stack
+
+🎯 Project Objectives
+Deploy Security Onion in a virtual lab environment
+Configure network monitoring and intrusion detection
+Simulate cyber attacks from an attacker machine
+Detect malicious activity using Suricata IDS and Zeek
+Analyze logs and alerts through Elastic dashboards
+Investigate incidents using the Security Onion SOC console
+
+🧰 Tools & Technologies
+| Tool                    | Purpose                              |
+| ----------------------- | ------------------------------------ |
+| **Security Onion**      | Network security monitoring platform |
+| **Suricata**            | Intrusion Detection System (IDS)     |
+| **Zeek**                | Network traffic analysis             |
+| **Elastic Stack**       | Log collection and visualization     |
+| **VMware / VirtualBox** | Virtualization platform              |
+| **Kali Linux**          | Attacker machine for simulations     |
+
+🏗️ Lab Architecture
+
+The lab environment consists of the following components:
+Attacker Machine (Kali Linux)
+        │
+        │ Attack Traffic
+        ▼
+   Target Network
+        │
+        ▼
+Security Onion Sensor
+        │
+        ▼
+SOC Dashboard (Elastic + Kibana)
+
+📊 Results
+The system successfully detected simulated attacks and displayed them in the SOC dashboard.
+Detected activities included:
+Port scanning
+SSH brute-force attempts
+Suspicious network traffic
+Security Onion provided detailed logs and alerts for investigation.
