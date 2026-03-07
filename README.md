@@ -1,6 +1,6 @@
 🛡️ Security Onion Network Security Monitoring Lab
 
-📌 Project Overview
+📌 Project Overview                                                                                                                                                                       
 This project demonstrates the deployment and configuration of Security Onion, a powerful open-source platform used for Network Security Monitoring (NSM), Intrusion Detection, and Threat Analysis.                                                                                                                                                                                
 The lab environment simulates real-world cyber attacks such as port scanning and brute-force attacks, and shows how Security Onion detects and analyzes these threats using tools like Suricata, Zeek, Elastic Stack                                                                                                                                                             
 
