@@ -1,5 +1,6 @@
 # 🛡️ Security Onion Network Monitoring & Threat Detection Lab
-This project demonstrates network security monitoring and threat detection using Security Onion in a virtual lab environment. The system captures network traffic, analyzes suspicious activities using Suricata IDS and Zeek, and generates alerts for investigation through the Security Onion SOC dashboard.
+
+- This project demonstrates network security monitoring and threat detection using Security Onion in a virtual lab environment. The system captures network traffic, analyzes suspicious activities using Suricata IDS and Zeek, and generates alerts for investigation through the Security Onion SOC dashboard.
 ---
 # ✅ Project Overview
 
