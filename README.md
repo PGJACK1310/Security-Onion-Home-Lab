@@ -22,21 +22,6 @@ Investigate incidents using the Security Onion SOC console
 | **VMware / VirtualBox** | Virtualization platform              |
 | **Kali Linux**          | Attacker machine for simulations     |
 
-🏗️ Lab Architecture                                                                                                                                                                      
-
-The lab environment consists of the following components:
-Attacker Machine (Kali Linux)                                                                                                                                                             
-        │
-        │ Attack Traffic
-        ▼
-   Target Network
-        │
-        ▼
-Security Onion Sensor
-        │
-        ▼
-SOC Dashboard (Elastic + Kibana)
-
 📊 Results                                                                                                                                                                                
 The system successfully detected simulated attacks and displayed them in the SOC dashboard.
 Detected activities included:
